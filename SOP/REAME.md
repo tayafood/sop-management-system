@@ -1,0 +1,3 @@
+- Tạo kho dữ liệu (git): https://github.com/NguyenLieu04/pharma/tree/main
+- Hỏi A.I (tạo SOP + kiểm tra): https://grok.com/chat/21b9a337-0f1b-43cc-b93f-d113e4949d17
+- Quản Lý phiên bản GIT: https://urban-system-69wrwqj9rrxq3xxqj.github.dev/
