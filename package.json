@@ -9,7 +9,7 @@
   "scripts": {
     "generate-sidebar": "node docs/.vuepress/create_sidebar.js",
     "docs:dev": "npm run generate-sidebar && vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:build": "npm run generate-sidebar && vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mai Thành Duy An",
