@@ -2,6 +2,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
+import sidebar from './sidebar';
+
 export default defineUserConfig({
     bundler: viteBundler(),
     theme: defaultTheme({
@@ -15,6 +17,7 @@ export default defineUserConfig({
                 link: '/sop/GMP/eu/SOP-DAP-VIEN.md',
             },
         ],
+        sidebar: sidebar,
     }),
     plugins: [
         mdEnhancePlugin({

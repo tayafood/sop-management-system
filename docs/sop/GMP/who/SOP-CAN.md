@@ -1,6 +1,4 @@
-Dưới đây là một SOP (Quy trình vận hành tiêu chuẩn) mẫu được xây dựng dựa trên các nguyên tắc của WHO về GMP (Thực hành sản xuất tốt), với nội dung cụ thể về việc kiểm tra dụng cụ sạch trước khi cân nguyên liệu. SOP này được trình bày ngắn gọn, rõ ràng và phù hợp với yêu cầu của bạn.
-
----
+# QUY TRÌNH VẬN HÀNH TIÊU CHUẨN - KIỂM TRA DỤNG CỤ PHÒNG CÂN
 
 **QUY TRÌNH VẬN HÀNH TIÊU CHUẨN (SOP)**  
 **Tên SOP:** Kiểm tra dụng cụ sạch trước khi cân nguyên liệu  

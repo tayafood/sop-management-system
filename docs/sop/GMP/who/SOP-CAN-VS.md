@@ -1,6 +1,4 @@
-Dưới đây là một SOP (Quy trình vận hành tiêu chuẩn) mẫu được xây dựng dựa trên các nguyên tắc của WHO về GMP (Thực hành sản xuất tốt), với nội dung cụ thể về việc vệ sinh dụng cụ trong phòng cân. SOP này được thiết kế rõ ràng, ngắn gọn và tuân thủ tiêu chuẩn quốc tế.
-
----
+# QUY TRÌNH VẬN HÀNH TIÊU CHUẨN - PHÒNG CÂN
 
 **QUY TRÌNH VẬN HÀNH TIÊU CHUẨN (SOP)**  
 **Tên SOP:** Vệ sinh dụng cụ phòng cân  
