@@ -4,4 +4,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
     "simpleBrowser.focusLockIndicator.enabled": true,
+    "markdown-preview-enhanced.mermaidTheme": "default", // hoặc 'forest', 'neutral', 'dark'
+
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
 }

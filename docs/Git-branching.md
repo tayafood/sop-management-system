@@ -44,6 +44,8 @@ git branch release
 git branch hotfix
 ```
 
+- Cấu trúc thư mục
+
 ```mermaid
 flowchart TD
     A[Master SOP] -->|Khởi tạo nhánh develop| B(Nhà Máy)
@@ -81,6 +83,8 @@ flowchart TD
     D -->|tạo nhánh con Production| P
 ```
 
+- Workflow
+
 ```mermaid
 
 ---
@@ -89,25 +93,25 @@ title: Git Flow cho Quản lý SOP
 
 gitGraph
    commit id: "1" tag: "Initial commit on main"
-   branch develop
-   checkout develop
-   commit id: "2" tag: "Initial commit on develop"
-   branch feature/sop1
-   checkout feature/sop1
+   branch create-sop
+   checkout create-sop
+   commit id: "2" tag: "Initial commit on create-sop"
+   branch validate/sop1
+   checkout validate/sop1
    commit id: "3" tag: "Create SOP (make-sop)"
    commit id: "4" tag: "Refine SOP (make-sop)"
-   checkout develop
-   merge feature/sop1 tag: "Validate SOP"
+   checkout create-sop
+   merge validate/sop1 tag: "Validate SOP"
    checkout main
-   merge develop tag: "Issue SOPs"
-   branch feature/sop1-v2
-   checkout feature/sop1-v2
+   merge create-sop tag: "Issue SOPs"
+   branch validate/sop1-v2
+   checkout validate/sop1-v2
    commit id: "5" tag: "Start revalidation (revalidate)"
    commit id: "6" tag: "Update SOP (revalidate)"
-   checkout develop
-   merge feature/sop1-v2 tag: "Re-validate SOP"
+   checkout create-sop
+   merge validate/sop1-v2 tag: "re-validate SOP"
    checkout main
-   merge develop tag: "Re-issue SOPs"
+   merge create-sop tag: "Re-issue SOPs"
 
 ```
 
