@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # if your blog needs submodules, uncomment the following line
+          # if your docs needs submodules, uncomment the following line
           # submodules: true
       - name: Setup Node.js
         uses: actions/setup-node@v3
