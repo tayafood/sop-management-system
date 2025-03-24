@@ -28,5 +28,13 @@ module.exports = [
             }
         ]
     },
+    {
+        "text": "HACCP",
+        "prefix": "/sop/HACCP/",
+        "link": "/sop/HACCP/",
+        "children": [
+            "/sop/HACCP/README.md"
+        ]
+    },
     "/sop/README.md"
 ];
